@@ -6,3 +6,7 @@ library(here)
 feather::read_feather(here("data","iris1.feather"))
 
 feather::read_feather(here("data","sub-data","cars1.feather"))
+
+## pero tb funciona con esto.
+
+feather::read_feather("data/iris1.feather")
